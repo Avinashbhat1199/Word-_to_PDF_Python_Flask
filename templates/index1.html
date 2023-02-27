@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Python and Flask</title>
+</head>
+
+<body>
+<header class="navbar">
+  <form action="/upload" method="post" enctype="multipart/form-data" >
+      <span class="btn btn-default btn-file">
+        Browse <input type="file" name="image[]" multiple accept="image/*">
+      </span>
+
+    <input type="submit" value="Upload File" class="btn btn-primary">
+    <iframe></iframe>
+  </form>
+ 
+</header>
+
+</body>
+</html>
